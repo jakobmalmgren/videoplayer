@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair:wght@300&display=swap");
+body {
+  margin: 0;
+  color: white;
+  font-family: "Playfair", serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 0.5rem;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #c7c7c7;
+  border-radius: 1rem;
+}
