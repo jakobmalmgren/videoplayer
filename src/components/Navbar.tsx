@@ -11,7 +11,7 @@ import { useAppDispatch, useAppSelector } from "../store/hooks";
 import { clearSearchTerm, clearVideos } from "../store";
 import { changeSearchTerm } from "../store";
 import { GiOldMicrophone } from "react-icons/gi";
-import { GiVideoCamera } from "react-icons/gi";
+import { SlControlPlay } from "react-icons/sl";
 import { getSearchPageVideos } from "../store/reducers/getSearchPageVideos";
 
 export default function Navbar() {
@@ -27,7 +27,7 @@ export default function Navbar() {
     }
   };
   return (
-    <nav>
+    <nav className="sticky bg-[#bcc7bc] top-0 z-50	">
       <div className="flex justify-between  items-center  px-4 h-14 bg-[#4a544a] ">
         <div className="flex gap-2 items-center text-2xl">
           <div>
@@ -35,8 +35,8 @@ export default function Navbar() {
           </div>
           <Link to="/">
             <div className="flex gap-1 items-center justify-center">
-              <GiVideoCamera className="text-5xl text-600 text-black" />
-              <span className="text-xl font-medium">PlayMe</span>
+              <SlControlPlay className="text-3xl text-600 text-black" />
+              <span className="text-xl font-medium text-black">PlayMe</span>
             </div>
           </Link>
         </div>
@@ -60,7 +60,7 @@ export default function Navbar() {
       </div>
 
       <Iconbar />
-      <div className="flex justify-center my-3">
+      <div className="flex justify-center py-3">
         <form
           className="sm: w-10/12 flex rounded-full p-2.5 bg-zinc-900 max-w-md"
           onSubmit={(e) => {

@@ -12,9 +12,7 @@ export default function Search() {
   const dispatch = useAppDispatch();
   const videos = useAppSelector((state) => state.youtubeApp.videos);
   const searchTerm = useAppSelector((state) => state.youtubeApp.searchTerm);
-  // när ja söker o stor screen vill inte scrolla ner.
-  // men när jag går ner ill mobile gör de de...o sen upp till
-  // stor screen går de...konstigtt ..kolla! de enda kvar
+
   useEffect(() => {
     dispatch(clearVideos());
     if (searchTerm === "") navigate("/");
@@ -33,7 +31,7 @@ export default function Search() {
               next={() => dispatch(getSearchPageVideos(true))}
               hasMore={videos.length < 500}
               loader={<Spinner />}
-              height={1000}
+              height={650}
               className="flex flex-wrap justify-center"
             >
               {videos.map((item: HomePageVideos) => {

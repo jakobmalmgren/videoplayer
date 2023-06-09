@@ -9,7 +9,7 @@ import { HiArrowLeft, HiArrowRight, HiOutlineHome } from "react-icons/hi";
 
 export default function Sidebar() {
   return (
-    <div className="flex bg-white text-black justify-center my-1 items-center">
+    <div className="flex  text-black justify-center my-1 items-center">
       <HiArrowLeft className="ml-2 text-slate-400" />
       <MdOutlineSmartDisplay className="text-xl mx-2" />
       <MdOutlineWatchLater className="text-xl mx-2" />
