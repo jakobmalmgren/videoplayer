@@ -1,3 +1,49 @@
+# Title
+
+Videoplayer - A videoplayer where you can search for vieos and play them.(practice webpage)
+
+# Introduction
+
+Why did I create this project?
+-I created this project only for practise purpose, to increase my toolbox.
+
+What particular technology did I want to learn?
+This project I focused on:
+
+-Tailwind
+
+-Typescript
+
+-Redux
+
+-Axios
+
+-Methods
+
+-React-router-dom
+
+Is it for a non-profit organization?
+-Yes it is, its only for me.
+
+What was the inspiration behind creating the project?
+-I wanted to increase my toolbox and therefore this project
+
+# Technologies applied
+
+-Tailwind
+
+-Typescript
+
+-Redux
+
+-Axios
+
+-Methods
+
+-React-router-dom
+
+-React-icons
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
