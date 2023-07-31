@@ -32,7 +32,7 @@ export default function Home() {
             loader={<Spinner />}
             height={1000}
           >
-            <div className="flex justify-center flex-wrap">
+            <div className="flex justify-center flex-wrap mt-16">
               {videos.map((item: HomePageVideos) => {
                 return <Card data={item} key={item.videoId} />;
               })}
