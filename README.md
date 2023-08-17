@@ -48,7 +48,16 @@ What was the inspiration behind creating the project?
 
 This is a try-out version, so if the webpage only loads or get an error in the console
 it is because the search quote exceeded for the API key. Let me know and if you want to see it I fix the issue
-immediately.
+immediately. Down below is the link if u want to create an account for creating the
+API KEY by yourself, if u find an issue whit the fetching of the API.
+
+Description:
+
+https://console.cloud.google.com/
+
+-Credentials on the left hand side
+-Then push the "+ create credentials" in the middle faar up.
+-An API is created then copy paste in the ENV file here.
 
 # Getting Started with Create React App
 
